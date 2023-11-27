@@ -1,0 +1,139 @@
+korreleyasiya
+monte karlo simulation
+
+
+#### Generate Key for github:
+--> ssh-keygen -t rsa -b 4096 -C "emin.f.mammadov@gmail.com"
+--> passphrare: Java4*
+--> eval $(ssh-agent -s)
+--> ssh-add ~/.ssh/id_rsa
+--> clip < ~/.ssh/id_rsa.pub
+
+
+
+
+$ git clone git@github.com:EminDeveloper/Flask-Framework.git
+
+$ git status
+
+$ git add index.html
+
+$ git add . 
+
+$ git commit -m "Added index.html" -m "some description"
+
+$ git push
+
+$ git commit -m "Edited readme file" -m "Any Description"
+
+$ git push origin master
+
+$ git branch
+
+$ git checkout -b feature-readme-instructions
+
+$ git branch
+
+$ git fetch
+
+$ git checkout master
+
+$ git checkout feature-readme-instructions
+
+$ git status
+
+$ git add README.md 
+
+$ git commit -m "updated readme"
+
+$ git checkout master
+
+$ git merge
+
+$ git diff
+
+$ git merge feature-readme-instructions 
+
+$ git push -u origin feature-readme-instructions
+
+$ git pull origin master
+
+$ git branch -d feature-readme-instructions
+
+$ git branch
+
+$ git checkout -b quick-test
+
+$ git commit -am "added world"
+
+####### Undoing in git
+
+$ git status
+
+$ git add README.md
+
+$ git status
+
+$ git reset
+
+$ git status
+
+$ git reset HEAD~1
+
+$ git diff
+
+$ git log
+
+$ git reset 53c5f4e720878565d32b988438bcc3e68c47d1681
+
+$ git log
+
+$ git reset --hard 53c5f4e720878565d32b988438bcc3e68c47d1681
+
+
+
+####### ############  Git for Professionals
+
+$ git merge --abort
+
+$ git rebase --abort
+
+$ git mergetool
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 1. git config alias.last 'log --oneline --graph --decorate --'  --> Gitin loglarını görmək üçün last açarını aktivləşdirmək məqsədi ilə istifadə olunur;
+ 2. git last  --> Son logların görünməsi üçün istifadə olunur;
+ 3. git config alias.ps '!ps -A'
+ 4. git ps --> Sistemdə qaldırılan prosseslərin siyahısını çıxarır;
+ 5. git config --global color.ui true;
+ 6. git stash --> Сделать стеш можно командой ;
+ 7. git stash list  -->  посмотреть список стешей;
+ 8. git stash apply  -->  применить стэш;
+ 9. git stash pop  -->  применить стэш и удалить его из списка стешей;
+ 10. git stash clear  --> очистить список стешей;
+ 11. git status
+ 12. git reset --hard HEAD
+ 13. git rebase master
+ 14. git add . ; git commit -m 'Change robot'
+ 15. git rebase --onto master more_changes readme_fixes
+ 16. git merge
+ 17. git revert
+ 18. git mv
+ 19. git rm
+ 20. git add *.txt
+ 21. git rebase -i HEAD~6;
+ 22. git commit --amend
